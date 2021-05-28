@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="cleartrip">
+<listeners>
+<listener class-name="com.htc.cleartrip.Reports.Listeners"></listener>
+</listeners>
+<test name="Test">
+<classes>
+  <!--  <class name="com.htc.cleartrip.test.LoginTest"> </class>-->
+<!--   <class name="com.htc.cleartrip.test.RegistrationTest"> </class>-->
+ <class name="com.htc.cleartrip.test.FlightBookingTest"></class>
+ <class name="com.htc.cleartrip.test.HotelBookingTest"></class>
+ <!-- <class name="com.htc.cleartrip.test.GiftcardTest"></class>
+ <class name="com.htc.cleartrip.test.EditprofileTest"></class>
+ <class name="com.htc.cleartrip.test.TrainBookingTest"> </class> -->
+
+</classes>
+</test>
+</suite>

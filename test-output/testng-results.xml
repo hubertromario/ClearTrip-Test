@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-28T20:10:39 IST" name="cleartrip" finished-at="2021-05-28T20:18:30 IST" duration-ms="471187">
+    <groups>
+    </groups>
+    <test started-at="2021-05-28T20:10:39 IST" name="Test" finished-at="2021-05-28T20:18:30 IST" duration-ms="471187">
+      <class name="com.htc.cleartrip.test.HotelBookingTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.htc.cleartrip.test.HotelBookingTest@738dc9b]" started-at="2021-05-28T20:14:15 IST" name="setUp" finished-at="2021-05-28T20:14:21 IST" duration-ms="6419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@44592c39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HotelBookingTest(java.util.Map)[pri:0, instance:com.htc.cleartrip.test.HotelBookingTest@738dc9b]" started-at="2021-05-28T20:14:22 IST" name="HotelBookingTest" data-provider="Test" finished-at="2021-05-28T20:18:30 IST" duration-ms="248315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{BookinggType=Hotelcheckout, pincode=620017.0, Email=hubertromario98@gmail.com, Address=Ammayappanagar, Flight=Kingfisher, TravelDate=30/May/2021, Lastname=Romario, From=Trichy, City=Trichy, Mobile=9944193429, Nationality=Indian, airport=Trichy, Firstname=Hubert, Checkindate=28/May/2021, Type=Flight, Checkoutdate=30/May/2021, State=Tamilnadu, Passportno=T654321, Country=India, To=Chennai, BookingType=Hotelcheckin, Emessage=Great, your changes have been saved.
+x
+     }]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelBookingTest -->
+      </class> <!-- com.htc.cleartrip.test.HotelBookingTest -->
+      <class name="com.htc.cleartrip.test.FlightBookingTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.htc.cleartrip.test.FlightBookingTest@71ba6d4e]" started-at="2021-05-28T20:10:39 IST" name="setUp" finished-at="2021-05-28T20:10:51 IST" duration-ms="11952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@44592c39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FlightsearchTest(java.util.Map)[pri:0, instance:com.htc.cleartrip.test.FlightBookingTest@71ba6d4e]" started-at="2021-05-28T20:10:53 IST" name="FlightsearchTest" data-provider="Test" finished-at="2021-05-28T20:14:15 IST" duration-ms="202314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{BookinggType=Hotelcheckout, pincode=620017.0, Email=hubertromario98@gmail.com, Address=Ammayappanagar, Flight=Kingfisher, TravelDate=30/May/2021, Lastname=Romario, From=Trichy, City=Trichy, Mobile=9944193429, Nationality=Indian, airport=Trichy, Firstname=Hubert, Checkindate=28/May/2021, Type=Flight, Checkoutdate=30/May/2021, State=Tamilnadu, Passportno=T654321, Country=India, To=Chennai, BookingType=Hotelcheckin, Emessage=Great, your changes have been saved.
+x
+     }]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightsearchTest -->
+      </class> <!-- com.htc.cleartrip.test.FlightBookingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- cleartrip -->
+</testng-results>
