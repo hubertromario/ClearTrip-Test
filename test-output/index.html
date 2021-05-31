@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-cleartrip" class="navigator-link">
-              <span class="suite-name border-failed">cleartrip</span>
+              <span class="suite-name border-passed">cleartrip</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-cleartrip" class="hide-methods failed suite-cleartrip"> (hide)</a> <!-- hide-methods failed suite-cleartrip -->
-                      <a href="#" panel-name="suite-cleartrip" class="show-methods failed suite-cleartrip"> (show)</a> <!-- show-methods failed suite-cleartrip -->
-                    </span>
-                    <div class="method-list-content failed suite-cleartrip">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-cleartrip" title="com.htc.cleartrip.test.TrainBookingTest" class="method navigator-link" hash-for-method="TrainBookingTest({BookinggType=Hotelcheckout, pincode=620017.0, Email=hubertromario98@gmail.com, Address=Ammayappanag...)">TrainBookingTest({BookinggType=Hotelcheckout, pincode=620017.0, Email=hubertromario98@gmail.com, Address=Ammayappanag...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-cleartrip -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,6 +105,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-cleartrip" title="com.htc.cleartrip.test.TrainBookingTest" class="method navigator-link" hash-for-method="LoginTest({Message=romario, Username=hubertromario98@gmail.com, Password=Roshan@98})">LoginTest({Message=romario, Username=hubertromario98@gmail.com, Password=Roshan@98})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-cleartrip" title="com.htc.cleartrip.test.TrainBookingTest" class="method navigator-link" hash-for-method="TrainBookingTest({BookinggType=Hotelcheckout, pincode=620017.0, Email=hubertromario98@gmail.com, Address=Ammayappanag...)">TrainBookingTest({BookinggType=Hotelcheckout, pincode=620017.0, Email=hubertromario98@gmail.com, Address=Ammayappanag...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-cleartrip -->
@@ -133,36 +124,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-cleartrip" class="panel cleartrip">
-          <div class="suite-cleartrip-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.htc.cleartrip.test.TrainBookingTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TrainBookingTest({BookinggType=Hotelcheckout, pincode=620017.0, Email=hubertromario98@gmail.com, Address=Ammayappanag...)">
-                  </a> <!-- TrainBookingTest({BookinggType=Hotelcheckout, pincode=620017.0, Email=hubertromario98@gmail.com, Address=Ammayappanag...) -->
-                  <span class="method-name">TrainBookingTest</span>
-                  <span class="parameters">({BookinggType=Hotelcheckout, pincode=620017.0, Email=hubertromario98@gmail.com, Address=Ammayappanagar, Flight=Kingfisher, TravelDate=10/June/2021, Lastname=Romario, From=Trichy, City=Trichy, Mobile=9944193429, Nationality=Indian, airport=Trichy, Firstname=Hubert, Checkindate=28/May/2021, Type=Flight, Typee=Train, Checkoutdate=30/May/2021, State=Tamilnadu, Passportno=T654321, Country=India, To=Chennai, BookingType=Hotelcheckin, Emessage=Great, your changes have been saved.
-x
-     })</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id ModalActionPrompt
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-PPF45DV&apos;, ip: &apos;192.168.205.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
-	at com.htc.cleartrip.base.Basepage.switchtrainframe(Basepage.java:141)
-	at com.htc.cleartrip.pages.Irctcpage.setname(Irctcpage.java:16)
-	at com.htc.cleartrip.pages.Irctcpage.Irctc(Irctcpage.java:25)
-	at com.htc.cleartrip.test.TrainBookingTest.TrainBookingTest(TrainBookingTest.java:38)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-cleartrip-class-failed -->
           <div class="suite-cleartrip-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -175,6 +136,16 @@ Driver info: driver.version: unknown
                   </a> <!-- LoginTest({Message=romario, Username=hubertromario98@gmail.com, Password=Roshan@98}) -->
                   <span class="method-name">LoginTest</span>
                   <span class="parameters">({Message=romario, Username=hubertromario98@gmail.com, Password=Roshan@98})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TrainBookingTest({BookinggType=Hotelcheckout, pincode=620017.0, Email=hubertromario98@gmail.com, Address=Ammayappanag...)">
+                  </a> <!-- TrainBookingTest({BookinggType=Hotelcheckout, pincode=620017.0, Email=hubertromario98@gmail.com, Address=Ammayappanag...) -->
+                  <span class="method-name">TrainBookingTest</span>
+                  <span class="parameters">({BookinggType=Hotelcheckout, pincode=620017.0, Email=hubertromario98@gmail.com, Address=Ammayappanagar, Flight=Kingfisher, TravelDate=10/June/2021, Lastname=Romario, From=Trichy, City=Trichy, Mobile=9944193429, Nationality=Indian, airport=Trichy, Firstname=Hubert, Checkindate=28/May/2021, Type=Flight, Typee=Train, Checkoutdate=30/May/2021, State=Tamilnadu, Passportno=T654321, Country=India, To=Chennai, BookingType=Hotelcheckin, Emessage=Great, your changes have been saved.
+x
+     })</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -236,18 +207,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginTest')
+data.setCell(0, 1, 'TrainBookingTest')
 data.setCell(0, 2, 'com.htc.cleartrip.test.TrainBookingTest')
-data.setCell(0, 3, 24808);
+data.setCell(0, 3, 25390);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TrainBookingTest')
+data.setCell(1, 1, 'LoginTest')
 data.setCell(1, 2, 'com.htc.cleartrip.test.TrainBookingTest')
-data.setCell(1, 3, 10701);
+data.setCell(1, 3, 23481);
 window.suiteTableData['cleartrip']= { tableData: data, tableDiv: 'times-div-cleartrip'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
               <div id="times-div-cleartrip">
               </div> <!-- times-div-cleartrip -->
             </div> <!-- times-div -->
@@ -275,18 +246,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.htc.cleartrip.test.TrainBookingTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUp(org.testng.TestRunner@3e0fbeb5)</span>
+                <span class="method-name">setUp(org.testng.TestRunner@76a14c8d)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">LoginTest({Message=romario, Username=hubertromario98@gmail.com, Password=Roshan@98})</span>
-                <span class="method-start">11580 ms</span>
+                <span class="method-start">10717 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">TrainBookingTest({BookinggType=Hotelcheckout, pincode=620017.0, Email=hubertromario98@gmail.com, Address=Ammayappanag...)</span>
-                <span class="method-start">36602 ms</span>
+                <span class="method-start">34326 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

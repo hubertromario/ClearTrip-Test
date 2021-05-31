@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-31T15:22:13 IST" name="cleartrip" finished-at="2021-05-31T15:23:01 IST" duration-ms="47917">
+  <suite started-at="2021-05-31T15:53:53 IST" name="cleartrip" finished-at="2021-05-31T15:54:53 IST" duration-ms="59974">
     <groups>
     </groups>
-    <test started-at="2021-05-31T15:22:13 IST" name="Test" finished-at="2021-05-31T15:23:01 IST" duration-ms="47917">
+    <test started-at="2021-05-31T15:53:53 IST" name="Test" finished-at="2021-05-31T15:54:53 IST" duration-ms="59974">
       <class name="com.htc.cleartrip.test.TrainBookingTest">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.htc.cleartrip.test.TrainBookingTest@55a147cc]" started-at="2021-05-31T15:22:13 IST" name="setUp" finished-at="2021-05-31T15:22:23 IST" duration-ms="10267" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.htc.cleartrip.test.TrainBookingTest@55a147cc]" started-at="2021-05-31T15:53:53 IST" name="setUp" finished-at="2021-05-31T15:54:03 IST" duration-ms="9958" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3e0fbeb5]]>
+                <![CDATA[org.testng.TestRunner@76a14c8d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginTest(java.util.Map)[pri:1, instance:com.htc.cleartrip.test.TrainBookingTest@55a147cc]" started-at="2021-05-31T15:22:25 IST" name="LoginTest" data-provider="Test" finished-at="2021-05-31T15:22:49 IST" duration-ms="24808" status="PASS">
+        <test-method signature="LoginTest(java.util.Map)[pri:1, instance:com.htc.cleartrip.test.TrainBookingTest@55a147cc]" started-at="2021-05-31T15:54:04 IST" name="LoginTest" data-provider="Test" finished-at="2021-05-31T15:54:28 IST" duration-ms="23481" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method signature="TrainBookingTest(java.util.Map)[pri:2, instance:com.htc.cleartrip.test.TrainBookingTest@55a147cc]" started-at="2021-05-31T15:22:50 IST" name="TrainBookingTest" data-provider="Test" finished-at="2021-05-31T15:23:00 IST" duration-ms="10701" status="FAIL">
+        <test-method signature="TrainBookingTest(java.util.Map)[pri:2, instance:com.htc.cleartrip.test.TrainBookingTest@55a147cc]" started-at="2021-05-31T15:54:28 IST" name="TrainBookingTest" data-provider="Test" finished-at="2021-05-31T15:54:53 IST" duration-ms="25390" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,54 +39,6 @@ x
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchFrameException">
-            <message>
-              <![CDATA[No frame element found by name or id ModalActionPrompt
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PPF45DV', ip: '192.168.205.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id ModalActionPrompt
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PPF45DV', ip: '192.168.205.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: driver.version: unknown
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
-at com.htc.cleartrip.base.Basepage.switchtrainframe(Basepage.java:141)
-at com.htc.cleartrip.pages.Irctcpage.setname(Irctcpage.java:16)
-at com.htc.cleartrip.pages.Irctcpage.Irctc(Irctcpage.java:25)
-at com.htc.cleartrip.test.TrainBookingTest.TrainBookingTest(TrainBookingTest.java:38)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TrainBookingTest -->

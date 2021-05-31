@@ -31,7 +31,7 @@ import com.htc.cleartrip.pages.HotelSearchpage;
 import com.htc.cleartrip.pages.Hotelconfirmationpage;
 import com.htc.cleartrip.pages.Hotelroomselectionpage;
 import com.htc.cleartrip.pages.Hotelselectionpage;
-import com.htc.cleartrip.pages.Irctcpage;
+//import com.htc.cleartrip.pages.Irctcpage;
 import com.htc.cleartrip.pages.Registrationpage;
 import com.htc.cleartrip.pages.Siginpage;
 import com.htc.cleartrip.pages.Trainsearchpage;
@@ -55,7 +55,7 @@ public class TestBase {
 	protected Egiftpage eg;
 	//protected Offerpage O;
 	protected Editprofilepage P;
-	protected Irctcpage I;
+	//protected Irctcpage I;
 	public WebDriver driver;
 	protected Screenshot S;
 	public static ExtentReports extent;
@@ -102,7 +102,7 @@ public class TestBase {
 	    g=new Giftcardpage(driver);
 	    eg=new Egiftpage(driver);
 	    P=new Editprofilepage(driver);
-	    I=new Irctcpage(driver);
+	  //  I=new Irctcpage(driver);
 	    S=new Screenshot(driver);
 	    System.out.println(driver!=null);
 	    System.out.println(S!=null);
