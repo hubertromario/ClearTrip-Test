@@ -6,20 +6,12 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.htc.cleartrip.test.FlightBookingTest">
+      <class name="com.htc.cleartrip.test.TrainBookingTest">
         <methods>
-          <include name="FlightsearchTest" invocation-numbers="0"/>
-          <include name="tearDown"/>
+          <include name="TrainBookingTest" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.htc.cleartrip.test.FlightBookingTest -->
-      <class name="com.htc.cleartrip.test.HotelBookingTest">
-        <methods>
-          <include name="HotelBookingTest" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.htc.cleartrip.test.HotelBookingTest -->
+      </class> <!-- com.htc.cleartrip.test.TrainBookingTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [cleartrip] -->

@@ -6,13 +6,13 @@
 </listeners>
 <test name="Test">
 <classes>
-  <!--  <class name="com.htc.cleartrip.test.LoginTest"> </class>-->
-<!--   <class name="com.htc.cleartrip.test.RegistrationTest"> </class>-->
+ <!--     <class name="com.htc.cleartrip.test.LoginTest"> </class>
+  <class name="com.htc.cleartrip.test.RegistrationTest"> </class>
  <class name="com.htc.cleartrip.test.FlightBookingTest"></class>
  <class name="com.htc.cleartrip.test.HotelBookingTest"></class>
- <!-- <class name="com.htc.cleartrip.test.GiftcardTest"></class>
- <class name="com.htc.cleartrip.test.EditprofileTest"></class>
- <class name="com.htc.cleartrip.test.TrainBookingTest"> </class> -->
+<class name="com.htc.cleartrip.test.GiftcardTest"></class>
+ <class name="com.htc.cleartrip.test.EditprofileTest"></class>-->
+ <class name="com.htc.cleartrip.test.TrainBookingTest"> </class> 
 
 </classes>
 </test>

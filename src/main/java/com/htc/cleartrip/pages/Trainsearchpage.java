@@ -22,8 +22,9 @@ public class Trainsearchpage extends Basepage implements Trainsearchpageobject {
 		dropdown(trainclass,2);
 		
 	}
-	public void selectdate() {
+	public void selectdate(String type,String date) {
 	//	calender(calender, monthtitle, nextmonth, nextmonthTitle, traveldate);
+		calenderr(type,calender, monthtitle, nextmonth, nextmonthTitle, date);
 	}
 	public void adults() throws Exception {
 		dropdown(adult, 2);
@@ -43,13 +44,13 @@ public class Trainsearchpage extends Basepage implements Trainsearchpageobject {
 		clickableMethod(SearchButton);
 	}
 	
-	public void Trainsearch() throws Exception {
-		this.setFrom("Trichy");
-		this.setTo("chennai");
+	public void Trainsearch(String type,String date) throws Exception {
+		this.setFrom("Trivandrum");
+		this.setTo("chengalpattu");
 		this.classselection();
-	//	this.selectdate();
+		this.selectdate(type,date);
 		this.adults();
-		this.children();
+	//	this.children();
 		this.clickSearchButton();
 		
 		

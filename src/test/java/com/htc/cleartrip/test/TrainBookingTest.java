@@ -11,7 +11,7 @@ public class TrainBookingTest extends TestBase {
 	@Test(dataProvider = "Test" , dataProviderClass = com.htc.cleartrip.util.Dataprovider.class,priority=1)
 	public void LoginTest(Map<String, String> data)  {
 		h.tripButton();
-		Childtest.pass("Trip Button Clicked");
+	//	Childtest.pass("Trip Button Clicked");
 		h.siginButton();
 		Childtest=test.createNode("Sigin button clicked");
 		try {
@@ -29,10 +29,11 @@ public class TrainBookingTest extends TestBase {
 			e.printStackTrace();
 		}
 	}
-	@Test
-	public void TrainsearchTest() throws Exception {
+	@Test(dataProvider = "Test" , dataProviderClass = com.htc.cleartrip.util.Dataprovider.class,priority=2)
+	public void TrainBookingTest(Map<String, String> data) throws Exception {
 		h.clickTrainButton();
+		Childtest=test.createNode("Train button clicked");
 		Childtest.pass("Train Button Clicked");
-		t.Trainsearch();
+		t.Trainsearch(data.get("Typee"),data.get("TravelDate"));
 	}
 }

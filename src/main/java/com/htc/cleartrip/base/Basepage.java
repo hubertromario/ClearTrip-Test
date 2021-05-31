@@ -137,6 +137,10 @@ public class Basepage {
 		driver.switchTo().frame("modal_window");
 	}
 	
+	public void switchtrainframe(WebDriver driver) {
+		driver.switchTo().frame("ModalActionPrompt");
+	}
+	
 	public void click(WebDriver driver,By xpaths) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].click();", xpaths);
@@ -171,6 +175,9 @@ public class Basepage {
 	public void checkoutdate(String datee) {
 		driver.findElement(By.xpath("(//a[text()="+datee+"])[1]")).click();
 	}
+	public void traindate(String datee) {
+		driver.findElement(By.xpath("(//a[text()="+datee+"])[1]")).click();
+	}
 	public void calenderr(String test,By xpath1,By xpath2,By xpath3,By xpath4,String date){
 		String datearray[]=date.split("/");
 		String datee=datearray[0];
@@ -193,6 +200,9 @@ public class Basepage {
 		}
 		else if(test.equalsIgnoreCase("Hotelcheckout")) {
 			checkoutdate(datee);
+		}
+		else if(test.equalsIgnoreCase("Train")) {
+			traindate(datee);
 		}
 		 log.info("calender function called");
 		}

@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.htc.cleartrip.test.FlightBookingTest">
+      <class name="com.htc.cleartrip.test.TrainBookingTest">
         <methods>
-          <include name="FlightsearchTest" invocation-numbers="0"/>
+          <include name="TrainBookingTest" invocation-numbers="0"/>
+          <include name="LoginTest" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.htc.cleartrip.test.FlightBookingTest -->
+      </class> <!-- com.htc.cleartrip.test.TrainBookingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

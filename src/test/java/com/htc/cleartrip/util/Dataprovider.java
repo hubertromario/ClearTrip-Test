@@ -28,7 +28,7 @@ public class Dataprovider {
 			System.out.println(Data);
 		}
 		
-		else if(methodName.getName().equals("FlightsearchTest") ||  methodName.getName().equals("HotelBookingTest") || methodName.getName().equals("EditprofileTest")) {
+		else if(methodName.getName().equals("FlightsearchTest") ||  methodName.getName().equals("HotelBookingTest") || methodName.getName().equals("EditprofileTest") || methodName.getName().equals("TrainBookingTest")) {
 			Data=exr.getDataUsingMap("UserData");
 			System.out.print(Data);
 		}
